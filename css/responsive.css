@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  .section-shell {
+    padding-block: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-shell {
+    padding: 4rem 1rem;
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 12vw, 3.25rem);
+  }
+}
+
+@media (max-width: 520px) {
+  .hero-actions {
+    width: 100%;
+  }
+
+  .hero-actions a {
+    width: 100%;
+  }
+}
